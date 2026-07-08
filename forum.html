@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PRPL Records | Community</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">PRPL</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="vinyl.html">Vinyl</a>
+      <a href="artists.html">Artists</a>
+      <a href="about.html">About</a>
+      <a href="shop.html">Shop</a>
+      <a href="forum.html">Community</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1>Community Room</h1>
+    <p class="lead">A quiet discussion space for collectors, listeners, artists, and the label community.</p>
+
+    <section class="forum-layout">
+      <form class="post-form" id="postForm">
+        <h2>Open a discussion</h2>
+        <input id="postTitle" type="text" placeholder="Title" required />
+        <textarea id="postBody" placeholder="Say it here." required></textarea>
+        <button class="button" type="submit">Post</button>
+      </form>
+
+      <div class="thread-list" id="threadList">
+        <article class="thread">
+          <h2>Community archive</h2>
+          <p>Discuss releases, records, artists, shows, collecting, and ideas around the label.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> PRPL Records. All rights reserved.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
