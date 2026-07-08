@@ -284,14 +284,12 @@ footer {
 
 .interior-logo-art {
   display: block;
-  width: clamp(220px, 24vw, 340px);
-  max-width: 340px;
-  max-height: 116px;
-  aspect-ratio: 1880 / 836;
-  overflow: hidden;
+  width: clamp(150px, 18vw, 240px);
+  height: 76px;
   line-height: 0;
   text-decoration: none;
   flex: 0 0 auto;
+  overflow: hidden;
 }
 
 .interior-logo-art img {
@@ -299,12 +297,13 @@ footer {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  object-position: left center;
 }
 
 @media (max-width: 760px) {
   .interior-logo-art {
-    width: min(64vw, 280px);
-    max-height: 92px;
+    width: min(56vw, 210px);
+    height: 66px;
   }
 }
 
