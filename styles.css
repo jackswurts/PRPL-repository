@@ -48,6 +48,9 @@ body::before {
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
   color: var(--iris);
   font-size: 1rem;
   font-weight: 800;
@@ -57,8 +60,36 @@ body::before {
 }
 
 .logo::after {
-  content: " ✶";
-  font-weight: 300;
+  content: "";
+  width: 0.82rem;
+  height: 0.82rem;
+  background: currentColor;
+  clip-path: polygon(
+    50% 0%,
+    56% 31%,
+    75% 7%,
+    69% 38%,
+    100% 25%,
+    76% 44%,
+    100% 50%,
+    76% 56%,
+    100% 75%,
+    69% 62%,
+    75% 93%,
+    56% 69%,
+    50% 100%,
+    44% 69%,
+    25% 93%,
+    31% 62%,
+    0% 75%,
+    24% 56%,
+    0% 50%,
+    24% 44%,
+    0% 25%,
+    31% 38%,
+    25% 7%,
+    44% 31%
+  );
 }
 
 nav {
@@ -142,11 +173,38 @@ nav a:hover,
   color: var(--iris);
 }
 
-.gallery-mark span {
+.twelve-star {
   display: block;
-  font-size: 5rem;
-  line-height: 1;
-  font-weight: 200;
+  width: 6.2rem;
+  height: 6.2rem;
+  margin: 0 auto;
+  background: currentColor;
+  clip-path: polygon(
+    50% 0%,
+    56% 31%,
+    75% 7%,
+    69% 38%,
+    100% 25%,
+    76% 44%,
+    100% 50%,
+    76% 56%,
+    100% 75%,
+    69% 62%,
+    75% 93%,
+    56% 69%,
+    50% 100%,
+    44% 69%,
+    25% 93%,
+    31% 62%,
+    0% 75%,
+    24% 56%,
+    0% 50%,
+    24% 44%,
+    0% 25%,
+    31% 38%,
+    25% 7%,
+    44% 31%
+  );
 }
 
 .gallery-mark p {
