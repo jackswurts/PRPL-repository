@@ -7,6 +7,7 @@
   --iris-soft: rgba(36, 79, 199, 0.18);
   --white: #fff9fb;
   --line: rgba(36, 79, 199, 0.26);
+  --twelve-star-line: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M 50.00 6.00 L 56.21 26.82 L 72.00 11.89 L 66.97 33.03 L 88.11 28.00 L 73.18 43.79 L 94.00 50.00 L 73.18 56.21 L 88.11 72.00 L 66.97 66.97 L 72.00 88.11 L 56.21 73.18 L 50.00 94.00 L 43.79 73.18 L 28.00 88.11 L 33.03 66.97 L 11.89 72.00 L 26.82 56.21 L 6.00 50.00 L 26.82 43.79 L 11.89 28.00 L 33.03 33.03 L 28.00 11.89 L 43.79 26.82 Z' fill='none' stroke='white' stroke-width='6' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E");
 }
 
 * {
@@ -61,35 +62,11 @@ body::before {
 
 .logo::after {
   content: "";
-  width: 0.82rem;
-  height: 0.82rem;
+  width: 0.92rem;
+  height: 0.92rem;
   background: currentColor;
-  clip-path: polygon(
-    50% 0%,
-    56% 31%,
-    75% 7%,
-    69% 38%,
-    100% 25%,
-    76% 44%,
-    100% 50%,
-    76% 56%,
-    100% 75%,
-    69% 62%,
-    75% 93%,
-    56% 69%,
-    50% 100%,
-    44% 69%,
-    25% 93%,
-    31% 62%,
-    0% 75%,
-    24% 56%,
-    0% 50%,
-    24% 44%,
-    0% 25%,
-    31% 38%,
-    25% 7%,
-    44% 31%
-  );
+  mask: var(--twelve-star-line) center / contain no-repeat;
+  -webkit-mask: var(--twelve-star-line) center / contain no-repeat;
 }
 
 nav {
@@ -175,36 +152,12 @@ nav a:hover,
 
 .twelve-star {
   display: block;
-  width: 6.2rem;
-  height: 6.2rem;
+  width: 6.8rem;
+  height: 6.8rem;
   margin: 0 auto;
   background: currentColor;
-  clip-path: polygon(
-    50% 0%,
-    56% 31%,
-    75% 7%,
-    69% 38%,
-    100% 25%,
-    76% 44%,
-    100% 50%,
-    76% 56%,
-    100% 75%,
-    69% 62%,
-    75% 93%,
-    56% 69%,
-    50% 100%,
-    44% 69%,
-    25% 93%,
-    31% 62%,
-    0% 75%,
-    24% 56%,
-    0% 50%,
-    24% 44%,
-    0% 25%,
-    31% 38%,
-    25% 7%,
-    44% 31%
-  );
+  mask: var(--twelve-star-line) center / contain no-repeat;
+  -webkit-mask: var(--twelve-star-line) center / contain no-repeat;
 }
 
 .gallery-mark p {
