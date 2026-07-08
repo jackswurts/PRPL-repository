@@ -281,6 +281,33 @@ footer {
   transform: translateX(0.28rem);
 }
 
+
+.interior-logo-art {
+  display: block;
+  width: clamp(220px, 24vw, 340px);
+  max-width: 340px;
+  max-height: 116px;
+  aspect-ratio: 1880 / 836;
+  overflow: hidden;
+  line-height: 0;
+  text-decoration: none;
+  flex: 0 0 auto;
+}
+
+.interior-logo-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 760px) {
+  .interior-logo-art {
+    width: min(64vw, 280px);
+    max-height: 92px;
+  }
+}
+
 nav {
   display: flex;
   gap: 34px;
