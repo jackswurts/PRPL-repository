@@ -281,6 +281,29 @@ footer {
   transform: translateX(0.28rem);
 }
 
+
+.site-logo-art {
+  display: block;
+  width: clamp(220px, 28vw, 370px);
+  aspect-ratio: 1880 / 836;
+  line-height: 0;
+  text-decoration: none;
+  filter: drop-shadow(2px 0 rgba(17, 59, 167, 0.16));
+}
+
+.site-logo-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 760px) {
+  .site-logo-art {
+    width: min(70vw, 300px);
+  }
+}
+
 nav {
   display: flex;
   gap: 34px;
