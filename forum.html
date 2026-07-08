@@ -6,12 +6,12 @@
   <title>PRPL Records | Community</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body class="community-body">
   <header class="site-header">
     <a class="logo" href="index.html">PRPL</a>
     <nav>
       <a href="index.html">Home</a>
-      <a href="vinyl.html">Vinyl</a>
+      <a href="vinyl.html">Catalog</a>
       <a href="artists.html">Artists</a>
       <a href="about.html">About</a>
       <a href="shop.html">Shop</a>
@@ -19,24 +19,151 @@
     </nav>
   </header>
 
-  <main class="page">
-    <h1>Community Room</h1>
-    <p class="lead">A quiet discussion space for collectors, listeners, artists, and the label community.</p>
-
-    <section class="forum-layout">
-      <form class="post-form" id="postForm">
-        <h2>Open a discussion</h2>
-        <input id="postTitle" type="text" placeholder="Title" required />
-        <textarea id="postBody" placeholder="Say it here." required></textarea>
-        <button class="button" type="submit">Post</button>
-      </form>
-
-      <div class="thread-list" id="threadList">
-        <article class="thread">
-          <h2>Community archive</h2>
-          <p>Discuss releases, records, artists, shows, collecting, and ideas around the label.</p>
-        </article>
+  <main class="page community-page">
+    <section class="community-hero">
+      <div>
+        <h1>The Pink Room</h1>
+        <p class="lead">Connect. Share. Keep the conversation going.</p>
       </div>
+
+      <div class="community-actions">
+        <button class="button ghost" type="button">+ New discussion</button>
+        <label class="search-box">
+          <span>Search</span>
+          <input type="search" placeholder="Search discussions..." />
+        </label>
+      </div>
+    </section>
+
+    <section class="forum-layout pink-room-layout">
+      <aside class="profile-panel">
+        <div class="avatar-orb"></div>
+        <h2>neonchurch</h2>
+        <p>@neonchurch</p>
+        <button class="button ghost" type="button">Edit profile</button>
+
+        <dl class="profile-stats">
+          <div>
+            <dt>Discussions</dt>
+            <dd>12</dd>
+          </div>
+          <div>
+            <dt>Comments</dt>
+            <dd>47</dd>
+          </div>
+          <div>
+            <dt>Likes</dt>
+            <dd>128</dd>
+          </div>
+          <div>
+            <dt>Joined</dt>
+            <dd>May 1998</dd>
+          </div>
+        </dl>
+
+        <div class="online-strip">
+          <h3>Online now</h3>
+          <div class="online-avatars">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p>23 members online</p>
+        </div>
+      </aside>
+
+      <section class="discussion-board">
+        <header class="discussion-tabs">
+          <nav>
+            <a href="#">All discussions</a>
+            <a href="#">Following</a>
+            <a href="#">My discussions</a>
+          </nav>
+          <div class="discussion-metrics">
+            <span>Replies</span>
+            <span>Views</span>
+            <span>Last activity</span>
+          </div>
+        </header>
+
+        <article class="discussion-row">
+          <span class="discussion-icon spark-icon"></span>
+          <div>
+            <h2>What are you listening to right now?</h2>
+            <p>by signalz</p>
+          </div>
+          <span>28</span>
+          <span>342</span>
+          <p>2m ago<br>by neonchurch</p>
+        </article>
+
+        <article class="discussion-row">
+          <span class="discussion-icon globe-icon"></span>
+          <div>
+            <h2>PRPL releases you need in your collection</h2>
+            <p>by prpldreams</p>
+          </div>
+          <span>16</span>
+          <span>198</span>
+          <p>15m ago<br>by voidlogic</p>
+        </article>
+
+        <article class="discussion-row">
+          <span class="discussion-icon rings-icon"></span>
+          <div>
+            <h2>Looking for underground electronic recs</h2>
+            <p>by basslinebaby</p>
+          </div>
+          <span>31</span>
+          <span>534</span>
+          <p>1h ago<br>by basslinebaby</p>
+        </article>
+
+        <article class="discussion-row">
+          <span class="discussion-icon wave-icon"></span>
+          <div>
+            <h2>Anyone going to the LA show?</h2>
+            <p>by neonchurch</p>
+          </div>
+          <span>9</span>
+          <span>122</span>
+          <p>3h ago<br>by kinetic</p>
+        </article>
+
+        <article class="discussion-row">
+          <span class="discussion-icon bolt-icon"></span>
+          <div>
+            <h2>Share your setups</h2>
+            <p>by hardwarehead</p>
+          </div>
+          <span>14</span>
+          <span>276</span>
+          <p>5h ago<br>by hardwarehead</p>
+        </article>
+
+        <article class="discussion-row">
+          <span class="discussion-icon dot-icon"></span>
+          <div>
+            <h2>New to PRPL - say hello!</h2>
+            <p>by newwave</p>
+          </div>
+          <span>22</span>
+          <span>411</span>
+          <p>1d ago<br>by newwave</p>
+        </article>
+
+        <footer class="pagination">
+          <a href="#">← Prev</a>
+          <span>1</span>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">Next →</a>
+        </footer>
+      </section>
     </section>
   </main>
 
