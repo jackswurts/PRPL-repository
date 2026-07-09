@@ -362,6 +362,7 @@ nav a:hover,
   line-height: 0.72;
   letter-spacing: -0.04em;
   margin: 0 0 -0.04em;
+  padding-left: clamp(2.25rem, 2.7vw, 3.4rem);
   text-shadow: 0.018em 0 var(--pink), -0.006em 0 var(--pink);
 }
 
@@ -389,6 +390,7 @@ nav a:hover,
   display: inline-block;
   color: var(--pink);
   margin: -0.015em 0 0;
+  padding-left: clamp(1.3rem, 1.55vw, 2rem);
   font-family: "Arial Black", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: clamp(3.8rem, 8.7vw, 9.2rem);
   font-weight: 950;
@@ -1010,9 +1012,11 @@ footer {
   .home-logo-kicker {
     font-size: clamp(1.2rem, 7vw, 2.4rem);
     margin-bottom: -0.02em;
+    padding-left: clamp(1rem, 4.8vw, 1.8rem);
   }
 
   .home-logo-records {
+    padding-left: clamp(0.65rem, 2.5vw, 1rem);
     font-size: clamp(2.9rem, 14vw, 4.8rem);
     letter-spacing: 0.035em;
     transform: scaleX(1.08);
