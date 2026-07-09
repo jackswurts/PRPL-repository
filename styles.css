@@ -7,6 +7,7 @@
   --iris-soft: rgba(13, 80, 196, 0.16);
   --white: #fff9fb;
   --line: rgba(242, 146, 189, 0.58);
+  --record-star-mark: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%3E%3Cg%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2294%22%20stroke%3D%22%230d50c4%22%20stroke-width%3D%222%22%20opacity%3D%220.18%22%2F%3E%3Cpolygon%20points%3D%22100.0%2C14.0%20109.6%2C64.3%20143.0%2C25.5%20126.2%2C73.8%20174.5%2C57.0%20135.7%2C90.4%20186.0%2C100.0%20135.7%2C109.6%20174.5%2C143.0%20126.2%2C126.2%20143.0%2C174.5%20109.6%2C135.7%20100.0%2C186.0%2090.4%2C135.7%2057.0%2C174.5%2073.8%2C126.2%2025.5%2C143.0%2064.3%2C109.6%2014.0%2C100.0%2064.3%2C90.4%2025.5%2C57.0%2073.8%2C73.8%2057.0%2C25.5%2090.4%2C64.3%22%20stroke%3D%22%230d50c4%22%20stroke-width%3D%226%22%2F%3E%3Cpolyline%20points%3D%22100.0%2C14.0%20143.0%2C174.5%2025.5%2C57.0%20186.0%2C100.0%2025.5%2C143.0%20143.0%2C25.5%20100.0%2C186.0%2057.0%2C25.5%20174.5%2C143.0%2014.0%2C100.0%20174.5%2C57.0%2057.0%2C174.5%20100.0%2C14.0%22%20stroke%3D%22%230d50c4%22%20stroke-width%3D%224%22%20opacity%3D%220.95%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2228%22%20stroke%3D%22%230d50c4%22%20stroke-width%3D%225%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2220%22%20stroke%3D%22%230d50c4%22%20stroke-width%3D%223%22%2F%3E%3Ccircle%20cx%3D%22100%22%20cy%3D%22100%22%20r%3D%2210%22%20stroke%3D%22%230d50c4%22%20stroke-width%3D%223%22%2F%3E%3Cline%20x1%3D%22100%22%20y1%3D%22100%22%20x2%3D%22119%22%20y2%3D%2281%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%224%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
   --twelve-star-line: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M 50.00 6.00 L 56.21 26.82 L 72.00 11.89 L 66.97 33.03 L 88.11 28.00 L 73.18 43.79 L 94.00 50.00 L 73.18 56.21 L 88.11 72.00 L 66.97 66.97 L 72.00 88.11 L 56.21 73.18 L 50.00 94.00 L 43.79 73.18 L 28.00 88.11 L 33.03 66.97 L 11.89 72.00 L 26.82 56.21 L 6.00 50.00 L 26.82 43.79 L 11.89 28.00 L 33.03 33.03 L 28.00 11.89 L 43.79 26.82 Z' fill='none' stroke='white' stroke-width='6' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E");
   --glitch-noise: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.92' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='1 0 0 0 0.96 0 1 0 0 0.58 0 0 1 0 0.78 0 0 0 .42 0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E");
   --pixel-noise: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Crect x='1' y='2' width='2' height='2' fill='white' opacity='.5'/%3E%3Crect x='9' y='5' width='1' height='1' fill='black' opacity='.55'/%3E%3Crect x='17' y='3' width='2' height='2' fill='white' opacity='.38'/%3E%3Crect x='4' y='11' width='1' height='1' fill='black' opacity='.5'/%3E%3Crect x='13' y='13' width='2' height='2' fill='white' opacity='.42'/%3E%3Crect x='21' y='10' width='1' height='1' fill='black' opacity='.45'/%3E%3Crect x='7' y='20' width='2' height='2' fill='white' opacity='.32'/%3E%3Crect x='18' y='19' width='1' height='1' fill='black' opacity='.48'/%3E%3C/svg%3E");
@@ -347,8 +348,8 @@ nav a:hover,
 }
 
 .home-logo-lockup {
-  width: min(88vw, 1560px);
-  margin: 0 auto 0 2vw;
+  width: min(82vw, 1500px);
+  margin: 0 auto 0 3vw;
   color: var(--pink);
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -357,11 +358,11 @@ nav a:hover,
 .home-logo-kicker {
   display: block;
   color: var(--pink);
-  font-size: clamp(2.2rem, 5vw, 6.6rem);
+  font-size: clamp(2rem, 4.1vw, 5.7rem);
   font-weight: 950;
-  line-height: 0.76;
-  letter-spacing: -0.055em;
-  margin: 0 0 0.03em;
+  line-height: 0.82;
+  letter-spacing: -0.04em;
+  margin: 0 0 0.04em;
 }
 
 .floating-nav {
@@ -374,10 +375,10 @@ nav a:hover,
 
 .prpl-title {
   color: var(--pink);
-  font-size: clamp(7rem, 24vw, 24rem);
+  font-size: clamp(7rem, 20.5vw, 21rem);
   line-height: 0.72;
   margin: 0;
-  letter-spacing: -0.095em;
+  letter-spacing: -0.08em;
   font-weight: 950;
   text-transform: uppercase;
 }
@@ -385,14 +386,14 @@ nav a:hover,
 .home-logo-records {
   display: inline-block;
   color: var(--pink);
-  margin: 0.05em 0 0;
+  margin: 0.13em 0 0;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: clamp(3.2rem, 8vw, 8.8rem);
+  font-size: clamp(3rem, 6.4vw, 7.6rem);
   font-weight: 950;
-  line-height: 0.72;
+  line-height: 0.76;
   text-transform: uppercase;
-  letter-spacing: 0.095em;
-  transform: scaleX(1.26);
+  letter-spacing: 0.11em;
+  transform: scaleX(1.38);
   transform-origin: left center;
 }
 
@@ -412,6 +413,14 @@ nav a:hover,
   background: currentColor;
   mask: var(--twelve-star-line) center / contain no-repeat;
   -webkit-mask: var(--twelve-star-line) center / contain no-repeat;
+}
+
+.gallery-mark .twelve-star {
+  width: clamp(8rem, 9.5vw, 12rem);
+  height: clamp(8rem, 9.5vw, 12rem);
+  background: var(--record-star-mark) center / contain no-repeat;
+  mask: none;
+  -webkit-mask: none;
 }
 
 .gallery-mark p {
