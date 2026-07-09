@@ -393,7 +393,7 @@ nav a:hover,
   line-height: 0.76;
   text-transform: uppercase;
   letter-spacing: 0.11em;
-  transform: scaleX(1.38);
+  transform: scaleX(1.6);
   transform-origin: left center;
 }
 
