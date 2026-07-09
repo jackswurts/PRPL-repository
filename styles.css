@@ -71,11 +71,11 @@ html::before {
     radial-gradient(circle at 87% 7%, rgba(242, 146, 189, 0.75) 0 1px, transparent 2px),
     radial-gradient(circle at 96% 64%, rgba(242, 146, 189, 0.7) 0 1px, transparent 2px),
     linear-gradient(180deg, transparent 0 21%, rgba(242, 146, 189, 0.12) 21.1% 21.35%, transparent 21.7% 52%, rgba(255, 249, 251, 0.08) 52.05% 52.2%, transparent 52.55% 100%);
-  background-size: 24px 24px, 143px 97px, 211px 131px, 181px 113px, 100% 100%;
+  background-size: 16px 16px, 96px 73px, 151px 101px, 139px 89px, 100% 100%;
   mix-blend-mode: soft-light;
-  opacity: 0.34;
+  opacity: 0.52;
   z-index: 1000;
-  animation: pixel-glitch 7s steps(1, end) infinite;
+  animation: pixel-glitch 4.8s steps(1, end) infinite;
 }
 
 html::after {
@@ -130,17 +130,22 @@ footer {
 @keyframes pixel-glitch {
   0%, 76%, 79%, 100% {
     transform: translate3d(0, 0, 0);
-    opacity: 0.24;
-  }
-
-  76.4% {
-    transform: translate3d(2px, -1px, 0);
     opacity: 0.42;
   }
 
+  76.4% {
+    transform: translate3d(3px, -2px, 0);
+    opacity: 0.68;
+  }
+
   77.1% {
-    transform: translate3d(-2px, 1px, 0);
-    opacity: 0.32;
+    transform: translate3d(-3px, 2px, 0);
+    opacity: 0.58;
+  }
+
+  78.2% {
+    transform: translate3d(2px, 1px, 0);
+    opacity: 0.62;
   }
 }
 
@@ -342,15 +347,14 @@ nav a:hover,
 }
 
 .welcome-script {
-  position: absolute;
-  top: 28px;
-  left: 2.4vw;
-  color: var(--pink-soft);
-  font-family: "Brush Script MT", "Apple Chancery", cursive;
-  font-size: clamp(2rem, 3.2vw, 4.2rem);
-  font-weight: 400;
-  letter-spacing: -0.04em;
-  transform: rotate(-4deg);
+  color: var(--pink);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 3.8rem;
+  font-weight: 950;
+  line-height: 0.78;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  margin: 0 0 0.12em;
 }
 
 .floating-nav {
@@ -372,12 +376,17 @@ nav a:hover,
 }
 
 .hero-caption {
-  color: var(--iris);
-  margin: 18px 0 0;
-  font-weight: 800;
+  display: inline-block;
+  color: var(--pink);
+  margin: 0.08em 0 0;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 6.8rem;
+  font-weight: 950;
+  line-height: 0.78;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
-  font-size: clamp(0.95rem, 1.4vw, 1.25rem);
+  letter-spacing: 0.08em;
+  transform: scaleX(1.14);
+  transform-origin: left center;
 }
 
 .gallery-mark {
@@ -983,8 +992,14 @@ footer {
   }
 
   .welcome-script {
-    top: 24px;
-    left: 6vw;
+    font-size: 2.4rem;
+    margin-bottom: 0.18em;
+  }
+
+  .hero-caption {
+    font-size: 3.6rem;
+    letter-spacing: 0.05em;
+    transform: none;
   }
 
   .lavender-home {
