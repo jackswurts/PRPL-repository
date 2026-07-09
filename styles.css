@@ -347,21 +347,22 @@ nav a:hover,
 }
 
 .home-logo-lockup {
-  width: min(88vw, 1560px);
+  width: min(86vw, 1540px);
   margin: 0 auto 0 2vw;
   color: var(--pink);
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Arial Black", Helvetica Neue, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
 
 .home-logo-kicker {
   display: block;
   color: var(--pink);
-  font-size: clamp(2.2rem, 5vw, 6.6rem);
+  font-size: clamp(1.45rem, 2.85vw, 3.6rem);
   font-weight: 950;
-  line-height: 0.76;
-  letter-spacing: -0.055em;
-  margin: 0 0 0.03em;
+  line-height: 0.72;
+  letter-spacing: -0.04em;
+  margin: 0 0 -0.04em;
+  text-shadow: 0.018em 0 var(--pink), -0.006em 0 var(--pink);
 }
 
 .floating-nav {
@@ -374,26 +375,29 @@ nav a:hover,
 
 .prpl-title {
   color: var(--pink);
-  font-size: clamp(7rem, 24vw, 24rem);
-  line-height: 0.72;
+  font-family: "Arial Black", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: clamp(7.2rem, 24vw, 24rem);
+  line-height: 0.68;
   margin: 0;
-  letter-spacing: -0.095em;
+  letter-spacing: -0.11em;
   font-weight: 950;
   text-transform: uppercase;
+  text-shadow: 0.012em 0 var(--pink), -0.004em 0 var(--pink);
 }
 
 .home-logo-records {
   display: inline-block;
   color: var(--pink);
-  margin: 0.05em 0 0;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: clamp(3.2rem, 8vw, 8.8rem);
+  margin: -0.015em 0 0;
+  font-family: "Arial Black", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: clamp(3.8rem, 8.7vw, 9.2rem);
   font-weight: 950;
-  line-height: 0.72;
+  line-height: 0.68;
   text-transform: uppercase;
-  letter-spacing: 0.095em;
-  transform: scaleX(1.26);
+  letter-spacing: 0.055em;
+  transform: scaleX(1.38);
   transform-origin: left center;
+  text-shadow: 0.01em 0 var(--pink), -0.004em 0 var(--pink);
 }
 
 .gallery-mark {
@@ -1004,14 +1008,14 @@ footer {
   }
 
   .home-logo-kicker {
-    font-size: clamp(2rem, 12vw, 4rem);
-    margin-bottom: 0.06em;
+    font-size: clamp(1.2rem, 7vw, 2.4rem);
+    margin-bottom: -0.02em;
   }
 
   .home-logo-records {
-    font-size: clamp(2.8rem, 14vw, 4.4rem);
-    letter-spacing: 0.055em;
-    transform: none;
+    font-size: clamp(2.9rem, 14vw, 4.8rem);
+    letter-spacing: 0.035em;
+    transform: scaleX(1.08);
   }
 
   .lavender-home {
